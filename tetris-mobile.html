@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8" />
+	<title>Tetris in Javascript</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		canvas {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="drawing-area" height="300" width="400">Please enable Javascript to play some Tetris</canvas>
+	
+	<!-- Load the controls -->
+	<script src="js/controls-touch.js"></script>
+	<!-- Load the shape definitions -->
+	<script src="js/shapes.js"></script>
+	<!-- Load the gameloop definition -->
+	<script src="js/gameloop.js"></script>
+	<!-- Load the model definition -->
+	<script src="js/model.js"></script>
+	<!-- Load the renderer definition -->
+	<script src="js/renderer-touch.js"></script>
+	<!-- Start the game on load -->
+	<script src="js/startGame.js"></script>
+</body>
+</html>

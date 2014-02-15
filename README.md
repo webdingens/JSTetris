@@ -27,6 +27,8 @@ http://martinsenk.net/Tetris/tetris-mobile.html
 - BG music
 - keep the aspect ratio of the squares
 - tweak the touch input
+- if game is over and resize events occurs the game isn't redrawn anymore ->change that
+- change the difficulty to get harder faster but don't be too hard to play at level 13 already
 
 ## Credits
 I'd like to mention here the source I used as a base for my game loops. It can be found here:

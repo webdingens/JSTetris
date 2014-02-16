@@ -5,6 +5,8 @@ I created this game to test how usable my JavaScript knowledge already is. Also 
 
 There are two versions: one has a keyboards control and is meant for desktop or laptop computers and the other one has touch control. The touch control is tightly connected to the drawing routine as this game uses a virtual control. Any similarities to your old Nintendo Gameboy are purely coincidental ... *cough*.
 
+Please notice that the project uses the MVC architecture as much as possible (having virtual gamecontrols is causing a few problems though, mixing the rendering with the touchcontrols).
+
 ## How to use it
 There are two html files showing the use for a normal desktop/laptop or for a mobile device. The main differences lie in the load of the control routines and event handlers as well as the rendering routines, as the touch screen controls are tightly knit with the rendering routine. 
 
